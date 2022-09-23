@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap');
 * {
     box-sizing: border-box;
   }
@@ -26,7 +27,8 @@
   }
   
   header h1 {
-    font-size: 1.5rem;
+    font-size: 3rem;
+    font-family: 'Rubik Dirt';
   }
   
   header h2 {
