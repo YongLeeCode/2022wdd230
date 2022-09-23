@@ -1,2 +1,14 @@
 -console.log 사용팁
     console.log란? 코드 문제를 해결하거나 데이터 흐름을 추적할 때  요긴하게 사용하는 기능입니다. 데이터 출력할 때
+
+
+normalize - browser in assisting
+reset - fake out brower default css
+reboot - premade css
+
+
+css units(단위)
+vw - viewport 너비의 1%
+vh - viewport 높이의 1%
+
+award winning sites -구글에 치면 자료를 얻을 수 있음
