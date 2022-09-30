@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap');
+
 * {
     box-sizing: border-box;
   }
@@ -25,6 +26,7 @@
     box-shadow: 0 0 30px rgba(0, 0, 0, 0.253);
     text-align: center;
   }
+  
   
   header h1 {
     font-size: 3rem;
