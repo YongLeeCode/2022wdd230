@@ -1,0 +1,19 @@
+@media only screen and (min-width: 35rem) {
+
+  header img {
+    width: auto;
+  }
+
+  header h1 {
+    font-size: 2rem;
+  }
+
+  header h2 {
+    font-size: 1.5rem;
+  }
+
+  nav ul {
+    flex-direction: row;
+  }
+
+} 

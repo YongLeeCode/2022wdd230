@@ -1,0 +1,116 @@
+html {
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+  font-family: Inter, sans-serif;
+  background-color: #eee;
+}
+
+/* Responsive images */
+img {
+  max-width: 100%;
+}
+
+/*----------- HEADER --------------*/
+
+header {
+  padding: 1.3rem 2%;
+  background-color: #caf8d0;
+}
+
+header img {
+  float: left;
+  margin-right: 10px;
+  width: 70px;
+}
+
+header h1 {
+  font-size: 1.3rem;
+  margin: 0;
+}
+
+header h2 {
+  font-size: 1rem;
+  margin: 0;
+  font-weight: 100;
+}
+
+/*----------- NAV --------------*/
+
+nav ul {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #00d812;
+}
+
+nav ul li {
+  flex: 1 1 auto;
+}
+
+nav ul li a {
+  display: block;
+  color: #eee;
+  padding: 0.5rem 0;
+  text-decoration: none;
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+nav ul li:hover {
+  background-color: #2fca00;
+}
+
+nav ul li.active {
+  background-color: #00b60c;
+}
+
+/*----------- MAIN --------------*/
+main {
+  padding: 1.3rem 2%;
+  background-color: #f0f4f5;
+}
+
+main h2:not(:first-of-type) {
+  margin-top: 2rem;
+}
+
+table {
+  border-collapse: collapse;
+  margin-top: 1.7rem;
+}
+
+tr td {
+  padding: 1rem;
+  border: 1px solid #c1f1c9;
+}
+
+tr td:first-child {
+  background-color: #c1f1c9;
+}
+
+/*----------- FOOTER --------------*/
+footer {
+  background-color: #c1f1c9;
+  padding: 0.5rem 2%;
+  text-align: center;
+}
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
