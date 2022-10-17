@@ -1,0 +1,202 @@
+*{
+    margin: 5px;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+header {
+  text-align: center;
+  padding: 10px;
+  background-color: orange;
+}
+
+i {
+  padding: 5px;
+  font-size: 20px;
+}
+
+a {
+    color: orangek;
+}
+
+#hero h2 {
+  text-align: left;
+  width: fit-content;
+  padding: 10px;
+}
+
+#join button {
+  padding: 10px;
+  width: 90%;
+}
+
+#join p {
+  margin-top: 20px;
+}
+
+#hero button {
+  font-size: 20px;
+  padding: 10px;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  border-radius: 5px;
+}
+
+a:hover, i:hover {
+    color: orange;
+    background-color: orange;
+}
+
+#event span {
+  color: orange
+}
+
+h1,
+h2 {
+  font-size: 30px;
+  margin: 7px;
+}
+
+#logoImg {
+  width: 120px;
+  height: auto;
+}
+
+.spotlightTitle, #join h2, #event h2, #weather h2, #news h2{
+  color: orange;
+}
+
+section {
+  margin: 10px;
+}
+
+#spot1, #spot2, #spot3, #event, #join, #weather, #news{
+  background-color: white;
+}
+
+#hero {
+  background-image: url("https://static.vecteezy.com/system/resources/previews/000/119/657/original/futsal-player-silhouette-vector.jpg");
+  background-size:cover;
+  height: 200px;
+  position: relative;
+}
+
+#diamondLogo {
+  width: 20px;
+  height: auto;
+}
+
+.spotlight {
+  background-color: orange green;
+}
+
+#celsiusPic {
+  width: 40px;
+  height: auto;
+}
+
+#weatherPic {
+  width: 60px;
+  height: auto;
+}
+
+.highlightPic {
+  width: 80px;
+  height: auto;
+}
+
+.btn {
+  font-size: 30px;
+  margin: 10px;
+}
+
+.currentDate {
+  font-size: 16px;
+  align-items: center;
+  margin: 10px;
+}
+
+body {
+  display: grid;
+  grid-template-columns: 1fr 90% 1fr;
+}
+
+#body {
+  grid-column: 2;
+  grid-row: inherit;
+}
+
+ul {
+  border-radius: 10px;
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  padding: 10px;
+}
+
+a {
+  text-decoration: none;
+  padding: 5px;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.disappear {
+  display: none;
+}
+
+footer {
+    background-color: orangen;
+  text-align: center;
+  padding: 15px;
+}
+
+#celsiusNumber {
+  font-size: 40px;
+}
+
+#footImg {
+  width: 190px;
+}
+
+hr {
+  width: 90%;
+}
+
+main {
+  text-align: center;
+  grid-column: 2;
+}
+
+#location, #contact{
+  display: flex;
+  align-self:flex-end;
+  flex-direction: column;
+}
+
+.windSpeed {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border: none;
+}
+
+main div {
+  border: 1px solid lightgray;
+  padding: 5px;
+}
+
+.spotlight {
+  text-align: center;
+  padding: 0;
+}
+
+#mediumContainer,
+#spot3,
+#join {
+  display: none;
+}

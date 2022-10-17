@@ -1,0 +1,85 @@
+@media screen and (min-width: 900px) {
+    header {
+      grid-template-rows: 1fr;
+    }
+  
+    .btn {
+      display: none;
+    }
+  
+    ul {
+      grid-column: 1/5;
+    }
+  
+    .disappear {
+      display: flex;
+      justify-content: center;
+      justify-content: space-evenly;
+    }
+  
+    #hero {
+      height: 100%;
+    }
+  
+    #facebook {
+      grid-column: 4;
+    }
+    #linkedIn {
+      grid-column: 5;
+    }
+  
+    main {
+      display: grid;
+      grid-template-columns: 1fr 3fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
+    }
+  
+    #event {
+      grid-column: 1;
+      grid-row: 1;
+    }
+  
+    #weather {
+      grid-column: 1;
+      grid-row: 2;
+    }
+  
+    #join {
+      grid-column: 1;
+      grid-row: 3;
+    }
+  
+    #news {
+      grid-column: 2;
+      grid-row: 3;
+    }
+  
+    #hero {
+      grid-column: 2/3;
+      grid-row: 1/3;
+    }
+  
+    .spotlight {
+      grid-column: 3;
+      grid-row: 1/4;
+      flex-direction: column;
+      justify-content: center;
+    }
+  
+    .spotlight div {
+      justify-content: center;
+    }
+  
+    #spot1 {
+      grid-row: 1;
+    }
+  
+    #spot2 {
+      grid-row: 2;
+    }
+  
+    #spot3 {
+      display: block;
+      grid-row: 3;
+    }
+  }
