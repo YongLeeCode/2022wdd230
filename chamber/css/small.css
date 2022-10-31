@@ -1,3 +1,9 @@
+.gallery picture img {
+  width: 100%;
+  margin: 0px;
+  display: block;
+}
+
 *{
     margin: 5px;
     padding: 0;
@@ -13,6 +19,32 @@ header {
 i {
   padding: 5px;
   font-size: 20px;
+}
+
+#hero {
+  height: 100%;
+  width: 100%;
+  padding: 0px;
+  position: absolute;
+}
+
+#hero picture{
+  padding: 0px;
+  margin: 0px;
+  position: relative;
+}
+
+#hero img {
+  object-fit: cover;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+}
+
+#hero source {
+  margin: 0px;
+  padding: 0px;
 }
 
 a {
@@ -44,12 +76,12 @@ a {
 }
 
 a:hover, i:hover {
-    color: orange;
+    color: Green;
     background-color: orange;
 }
 
 #event span {
-  color: orange
+  color: Green
 }
 
 h1,
@@ -64,7 +96,7 @@ h2 {
 }
 
 .spotlightTitle, #join h2, #event h2, #weather h2, #news h2{
-  color: orange;
+  color: Orange;
 }
 
 section {
@@ -76,7 +108,7 @@ section {
 }
 
 #hero {
-  background-image: url("https://static.vecteezy.com/system/resources/previews/000/119/657/original/futsal-player-silhouette-vector.jpg");
+  background-image: url("https://cdn.thecrazytourist.com/wp-content/uploads/2020/05/ccimage-shutterstock_1199600182.jpg");
   background-size:cover;
   height: 200px;
   position: relative;
@@ -200,3 +232,7 @@ main div {
 #join {
   display: none;
 }
+
+h2 {color: greenyellow;}
+
+p > img {width: 100px;}

@@ -1,85 +1,136 @@
 @media screen and (min-width: 900px) {
-    header {
-      grid-template-rows: 1fr;
-    }
-  
-    .btn {
-      display: none;
-    }
-  
-    ul {
-      grid-column: 1/5;
-    }
-  
-    .disappear {
-      display: flex;
-      justify-content: center;
-      justify-content: space-evenly;
-    }
-  
-    #hero {
-      height: 100%;
-    }
-  
-    #facebook {
-      grid-column: 4;
-    }
-    #linkedIn {
-      grid-column: 5;
-    }
-  
-    main {
-      display: grid;
-      grid-template-columns: 1fr 3fr 1fr;
-      grid-template-rows: 1fr 1fr 1fr;
-    }
-  
-    #event {
-      grid-column: 1;
-      grid-row: 1;
-    }
-  
-    #weather {
-      grid-column: 1;
-      grid-row: 2;
-    }
-  
-    #join {
-      grid-column: 1;
-      grid-row: 3;
-    }
-  
-    #news {
-      grid-column: 2;
-      grid-row: 3;
-    }
-  
-    #hero {
-      grid-column: 2/3;
-      grid-row: 1/3;
-    }
-  
-    .spotlight {
-      grid-column: 3;
-      grid-row: 1/4;
-      flex-direction: column;
-      justify-content: center;
-    }
-  
-    .spotlight div {
-      justify-content: center;
-    }
-  
-    #spot1 {
-      grid-row: 1;
-    }
-  
-    #spot2 {
-      grid-row: 2;
-    }
-  
-    #spot3 {
-      display: block;
-      grid-row: 3;
-    }
+  header {
+    grid-template-rows: 1fr;
   }
+
+  .btn {
+    display: none;
+  }
+
+  ul {
+    grid-column: 1/5;
+  }
+
+  .disappear {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+  }
+
+  #hero {
+    height: 100%;
+    width: 100%;
+    padding: 0px;
+  }
+
+  #hero picture{
+    padding: 0px;
+    margin: 0px;
+  }
+
+  #hero img {
+    object-fit: cover;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  #hero source {
+    margin: 0px;
+    padding: 0px;
+  }
+
+  #facebook {
+    grid-column: 4;
+  }
+  #linkedIn {
+    grid-column: 5;
+  }
+
+  main {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+
+  #event {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  #weather {
+    grid-column: 1;
+    grid-row: 2;
+  }
+
+  #join {
+    grid-column: 1;
+    grid-row: 3;
+  }
+
+  #news {
+    grid-column: 2;
+    grid-row: 3;
+  }
+
+  #hero {
+    grid-column: 2/3;
+    grid-row: 1/3;
+  }
+
+  .spotlight {
+    grid-column: 3;
+    grid-row: 1/4;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .spotlight div {
+    justify-content: center;
+  }
+
+  #spot1 {
+    grid-row: 1;
+  }
+
+  #spot2 {
+    grid-row: 2;
+  }
+
+  #spot3 {
+    display: block;
+    grid-row: 3;
+  }
+
+
+  .gallery picture .imageContainer:hover {
+    transform: scale(110%);
+    transition: transform 300ms ease-in-out;
+    z-index: 1;
+  }
+
+  .gallery picture .imageContainer:not(hover) {
+    transform: scale(100%);
+    transition: transform 300ms ease-in-out;
+    z-index: 1;
+  }
+
+  .gallery picture .imageContainer:hover .description{
+    display: block;
+  }
+
+  .description {
+    background: white;
+    padding: 10px;
+    display:none;
+  }
+
+  .column {
+    width: 33%;
+  }
+
+  .gallery{
+    display: flex; 
+    flex-direction: row;
+  }
+}

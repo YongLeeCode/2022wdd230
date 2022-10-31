@@ -6,32 +6,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="The home page for Best Futsal Player"
+      content="The home page for Daejeon City Chamber of Commerce"
     />
-    <title>Best Futsal Player</title>
-    
-    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css"/>
-    <link rel="stylesheet" href="../fontawesome-free-6.2.0-web/fontawesome-free-6.2.0-web/css/fontawesome.min.css"/>
+    <title>Daejeon City Chamber Commerce</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+  
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/small.css" />
     <link rel="stylesheet" href="css/medium.css" />
     <link rel="stylesheet" href="css/large.css" />
-
-    <script defer src="js/lesson4.js"></script>
   </head>
   <body>
     <div id="body">
       <header>
         <img src="./images/logo.png" alt="logo" id="logoImg" />
         <div class="nameTitle">
-          <h1>Best Futsal Player</h1>
-          <h2>Learning futsal skills</h2>
+          <h1>Daejeon City</h1>
+          <h2>Chamber of Commerce</h2>
         </div>
         <i id="facebook" class="fa-brands fa-facebook"></i>
         <i id="linkedIn" class="fa-brands fa-linkedin"></i>
-        
+        <button class="btn">&#9776;</button>
         <ul class="links disappear">
-          <li><a href="#">Discover</a></li>
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./pageDiscover/discover.html">Discover</a></li>
           <li><a href="#">Director</a></li>
           <li><a href="#">Join</a></li>
           <li><a href="#">Contact</a></li>
@@ -40,12 +41,12 @@
       </header>
       <main>
         <div id="hero">
-          <h2>Start futsal!</h2>
-          <button>Learn Futsal</button>
+          <h2>Enjoy Daejeon</h2>
+          <button>Join the chamber</button>
         </div>
         <div id="join">
           <button>Join us!</button>
-          <p>Discover how to join the Best Futsal Player and imporve your futsal skill.</p>
+          <p>Discover how to join the chamber of commerce and how it will benefit your organization!</p>
         </div>
         <div id="weather">
           <h2>Weather</h2>
@@ -54,23 +55,36 @@
               id="weatherPic"
               src="./images/sunny.png"
               alt="sunny"
-            /><span id="Fahrenheit">65 °F</span>
+            /><span id="celsiusNumber"><span id="tempNumbers">30</span>°F</span>
           </p>
-          <p>Sunny</p>
+          <p>Partly Cloudy</p>
           <hr />
-          <div class="temp">
-            <p>73°F / 32°F</p>
-            <p>Idaho Rexburg</p>
-            <p> N/A</p>
+          <div class="windSpeed">
+            <p>Windspeed:</p>
+            <p><sapn id="ws">8</sapn>km/h</p>
+            <p>Wind Chill:</p>
+            <p id="wc"> N/A</p>
           </div>
         </div>
         <div id="event">
-          <h2>find futsal friends</h2>
-          <p>find nearby futsal players and <span>more info ...</span></p>
+          <h2>Oh world</h2>
+          <p>
+            <img
+              id="oworld"
+              src="./images/oworld.png"
+              alt="diamond logo"
+            />
+          </p>
+          <p>Come and Enjoy O world in Daejeon. Up to 2022/12/31, the ticket price is 50% off. <span>more info ...</span></p>
         </div>
         <div id="news">
           <h2>New Release</h2>
-          <p>Solomon Islands name 17 players for OFC Futsal Cup and only 7 are from the last World Cup</p>
+          <p>Daecheongho Natural Ecology Center - </p>
+          <p>
+            Daejeon's representative chrysanthemum festival is a spot in the spotlight.
+            If you want to experience natural eco-tourism along with Daecheongho Obaekni-gil, please
+            visit us.
+          </p>
         </div>
         <div class="spotlight">
           <div id="spot1">
@@ -115,19 +129,25 @@
         <div class="footer">
           <img src="./images/logo.png" alt="logo" id="footImg" />
           <div id="location">
-            <h2>Best Futsal Player</h2>
-            <h2>Learning futsal skills</h2>
-            <p id="address">123abc road, Rexburg, Idaho, U.S</p>
+            <h2>Daejeon</h2>
+            <h2>Chamber of Commerce</h2>
+            <p id="address">Tanbang-dong Tanbang-ro 7 road, Daejeon, South Korea</p>
           </div>
           <div id="contact">
-            <p>bestFS@gmail.com</p>
-            <p>(208)-000-0000</p>
+            <span><i class="fa-solid fa-location-dot"></i
+            ><a
+              id="linkLocation"
+              href="https://www.google.com/maps/place/%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD+%EB%8C%80%EC%A0%84%EA%B4%91%EC%97%AD%EC%8B%9C/@36.3730796,127.3187595,12z/data=!3m1!4b1!4m5!3m4!1s0x356548d7ba4a6601:0xd196d69d988ad3b5!8m2!3d36.3504119!4d127.3845475"
+              >Location Map</a
+            ></span>
+            <p>daejeon@gmail.com</p>
+            <p>+1 (208)-000-0000</p>
           </div>
         </div>
         <hr />
         <div id="bottomTag">
           <p>
-            &copy;<span class="yearFoot"></span> Best Futsal Player | Yonghwan | WDD230
+            &copy;<span class="yearFoot"></span> Daejeon | Yonghwan | WDD230
           </p>
           <p id="adjustFoot">
             Last Updated: <span class="lastModified"></span>
@@ -136,4 +156,5 @@
       </footer>
     </div>
   </body>
+  <script src="js/lesson4.js"></script>
 </html>

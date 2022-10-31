@@ -114,3 +114,9 @@ footer {
   display: table;
   clear: both;
 }
+
+img{
+  width : 150px;
+  height : 150px;
+}
+
