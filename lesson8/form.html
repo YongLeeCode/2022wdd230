@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form method="get" action = "thankyou.html">
+        <!-- 글자를 눌러도 타입핑하는 곳을 누른 것처럼 됨 -->
+       <label for="fname">First Name:</label>
+       <input id="fname" type="text" name="firstname" required>
+
+       <!-- 위에와 같음
+        <label for="fname">First Name:
+            <input type="text" name="firstname">
+       </label>
+        -->
+        <label for="lname">Last Name:</label>
+       <input id="lname" type="text" name="lastname" required>
+        <label for="title">Buesiness Position Title *:</label>
+        <input required id="title" name="title">
+    </form>
+</body>
+</html>

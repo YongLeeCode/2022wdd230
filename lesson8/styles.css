@@ -1,0 +1,7 @@
+tr:nth-child(odd){
+    background-color: #ccc;
+}
+
+thead th{
+    background-color: pink;
+}
