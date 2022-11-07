@@ -113,4 +113,8 @@
   #contact {
     grid-row: 2;
   }
+
+  #memberships {
+    display: block;
+  }
 }

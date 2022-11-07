@@ -236,3 +236,59 @@ main div {
 h2 {color: greenyellow;}
 
 p > img {width: 100px;}
+
+/* JOIN */
+input {
+  border: 3px solid black;
+  padding: 3px;
+}
+
+label,input {
+  display: block;
+}
+
+input:required{
+  border-left: 5px solid gray;
+}
+
+input:required:valid {
+  border-left: 5px Solid green;
+}
+
+#membershipContent {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+#form {
+  grid-column: 1;
+}
+
+#membership {
+  border: 2px solid black;
+}
+
+#memberships h2 {
+  text-align: center;
+  background-color: gray;
+}
+
+#memberships ul {
+  text-align: center;
+}
+
+#memberships {
+  display: none;
+}
+
+/* ThankYOU */
+
+#thankYou {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#thankyouImg {
+  width: 300px;
+}
