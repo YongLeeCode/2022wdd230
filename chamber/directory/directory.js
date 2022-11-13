@@ -1,7 +1,7 @@
 const requestURL = "data.json";
 
 async function getDirectory(requestURL){
-    const response = await fetch('requestURL');
+    const response = await fetch(requestURL);
     console.log(response);
     if(response.ok){ 
         const jsonObject = await response.json();
