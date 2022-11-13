@@ -1,7 +1,7 @@
-const requestURL = "C:\Users\dydgh\Documents\YongLeeCode\wdd230\wdd230\chamber\directory\data.json";
+const requestURL = "data.json";
 
 async function getDirectory(requestURL){
-    const response = await fetch('data.json');
+    const response = await fetch('requestURL');
     console.log(response);
     if(response.ok){ 
         const jsonObject = await response.json();
