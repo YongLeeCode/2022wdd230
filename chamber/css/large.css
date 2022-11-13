@@ -133,4 +133,26 @@
     display: flex; 
     flex-direction: row;
   }
+
+  /* Directory page */
+
+  .directoryCards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .directoryTable {
+    display: none;
+  }
+
+  tr{
+    display: grid;
+    grid-template-columns: 10% 35% 1fr 1fr;
+    padding: 10px;
+  }
+
+  table 
+  {
+    width: 90%;
+  }
 }

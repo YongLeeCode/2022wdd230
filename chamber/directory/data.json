@@ -1,0 +1,88 @@
+{
+    "directory": [
+    {
+        "name": "Apple",
+        "address": "One Apple Park Way Cuperino, CA 95014",
+        "number": "877-412-7753",
+        "website": "https://www.apple.com",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzfHOqVMmGbGpUwHh0bvWXwC4jyn01sfUHkw&usqp=CAU"
+    },
+    {
+        "name": "Google",
+        "address": "1600 Amphitheatre Parkway Mountain View, CA 94043",
+        "number": "650-253-0000",
+        "website": "https://www.google.com/",
+        "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/1280px-Google_2015_logo.svg.png"
+    },
+    {
+        "name": "Uber",
+        "address": "1455 Market St. Ste 400 San Francisco, CA 94103",
+        "number": "352-325-1319",
+        "website": "https://www.uber.com/",
+        "img": "https://download.logo.wine/logo/Uber/Uber-Logo.wine.png"
+    },
+    {
+        "name": "Tesla",
+        "address": "1 Tesla Road. Austin, TX 78725",
+        "number": "888-518-3752",
+        "website": "https://www.tesla.com/",
+        "img": "https://1000logos.net/wp-content/uploads/2018/02/Logo-Tesla.jpg"
+    },
+    {
+        "name": "Nike",
+        "address": "One Bowerman Drive Beaverton, OR 97005-6453 USA",
+        "number": "800-806-6453",
+        "website": "https://www.nike.com/",
+        "img": "https://postfiles.pstatic.net/20160728_98/ppanppane_1469696985810MaPSh_PNG/%B3%AA%C0%CC%C5%B0_%B7%CE%B0%ED_%283%29.png?type=w966"
+    },
+    {
+        "name": "Meta",
+        "address": "1 Hacker Way, Menlo Park, CA 94025",
+        "number": "650-308-7300",
+        "website": "https://www.meta.com/",
+        "img": "https://www.reuters.com/resizer/Ek8UNUUZ1f1PG5DHyqJh5OFzhk4=/960x0/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/Y25AJ7I24VLTFIDKBAC3SW4MRQ.jpg"
+    },
+    {
+        "name": "Adobe",
+        "address": "45 Park Ave. San Jose, CA 95110-2704",
+        "number": "800-833-6687",
+        "website": "https://www.adobe.com/",
+        "img": "https://logos-world.net/wp-content/uploads/2020/06/Adobe-Logo-2020-present.png"
+    },
+    {
+        "name": "Blizzard",
+        "address": "16215 Alton Pkwy, Irvine, CA 92618",
+        "number": "949-955-1380",
+        "website": "blizzard.com",
+        "img": "https://assets.vg247.com/current/2014/09/11248963225-Blizzard_Entertainment_Logo.jpeg"
+    },
+    {
+        "name": "Riot Games",
+        "address": "12333 W Olympic Blvd, Los Angeles, CA 90064",
+        "number": "424-231-1111",
+        "website": "https://www.riotgames.com/en/work-with-us/offices",
+        "img": "https://www.riotgames.com/darkroom/800/87521fcaeca5867538ae7f46ac152740:2f8144e17957078916e41d2410c111c3/002-rg-2021-full-lockup-offwhite.jpg"
+    },
+    {
+        "name": "Git Hub",
+        "address": "88 Colin P Kelly Junior Street San Francisco, CA 94107",
+        "number": "877-448-4820",
+        "website": "https://github.com/",
+        "img": "https://cdn.icon-icons.com/icons2/2368/PNG/512/github_logo_icon_143772.png"
+    },
+    {
+        "name": "Samsung",
+        "address": "105 Challenger Rd. Ridgefield Park, NJ 07660-0511",
+        "number": "800-726-7864",
+        "website": "https://www.samsung.com/us/",
+        "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Samsung_Logo.svg/768px-Samsung_Logo.svg.png?20211002073723"
+    },
+    {
+        "name": "LG",
+        "address": "Lg Twin Tower, 128, Yeoui-Daero, Yeongdeungpo-Gu, Seoul, 07336",
+        "number": "800-243-0000",
+        "website": "https://www.lg.com/us",
+        "img": "https://www.lg.com/lg5-common/images/common/header/logo-b2c.jpg"
+    }
+    ]
+}   

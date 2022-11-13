@@ -292,3 +292,53 @@ input:required:valid {
 #thankyouImg {
   width: 300px;
 }
+
+/* Directory page */
+
+.directoryTable {
+  display: none;
+  margin-left: auto; 
+  margin-right: auto;
+}
+
+table{
+  border: 1px solid;
+  width: fit-content;
+}
+
+tr, td {
+  display: block;
+  padding: 10px;
+}
+
+tr:nth-child(even){
+  background: whitesmoke;
+}
+
+tr:nth-child(odd)
+{
+  background-color: lightgray;
+}
+
+.directoryCards img {
+  width: 200px;
+  height: 150px;
+
+  /* this is used for fir the img in the container */
+  object-fit: contain; 
+
+}
+
+.directoryCards section{
+  border: 1px solid black;
+  text-align: center;
+}
+
+.directoryCards {
+  display: grid;
+  grid-template-columns: 100%;
+}
+
+#switchButton {
+  text-align: center;
+}

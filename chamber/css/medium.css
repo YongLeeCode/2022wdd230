@@ -117,4 +117,15 @@
   #memberships {
     display: block;
   }
+
+  /* Directory page */
+.directoryCards {
+  display: none;
+  grid-template-columns: 50% 50%;
 }
+
+.directoryTable {
+  display: block;
+}
+}
+
