@@ -127,5 +127,9 @@
 .directoryTable {
   display: block;
 }
+
+#switchButton {
+  text-align: center;
+}
 }
 

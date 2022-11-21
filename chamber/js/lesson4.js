@@ -65,11 +65,10 @@ const getWeather = async () => {
   
     document.querySelector('#tempNumbers').textContent = ((jsObject.main.temp - 273.15) * 1.8 + 32).toFixed(2);
     document.querySelector('#ws').textContent = jsObject.wind.speed;
-    document.querySelector('#weatherCondition').textContent = jsObject.weather[0].main;
+    document.querySelector('#weatherCondition').textContent = jsObject.weather[0].description;
 
     const iconsrc= `https://openweathermap.org/img/wn/${jsObject.weather[0].icon}@2x.png`;
-    
-    const desc = jsObject.weather[0].description;
+  
     document.querySelector('#weatherPic').textContent = iconsrc;
     document.querySelector('#weatherPic').setAttribute('src', iconsrc)
     document.querySelector('#weatherPic').setAttribute('alt', sunny);
