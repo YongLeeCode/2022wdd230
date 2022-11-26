@@ -4,19 +4,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Join Page</title>
-    <link rel="stylesheet" href="../css/small.css">
-    <link rel="stylesheet" href="../css/medium.css">
+    <title>Contact us Page</title>
     <link rel="stylesheet" href="../css/normalize.css"/>
-    <link rel="stylesheet" href="../css/large.css">
-
+    <link rel="stylesheet" href="../css/small.css"/>
+    <link rel="stylesheet" href="../css/medium.css"/>
+    <link rel="stylesheet" href="../css/large.css"/>
 </head>
 <body>
     <div id="body">
         <header>
             <img src="../images/logo.webp" alt="logo" id="logoImg" />
             <div class="nameTitle">
-              <h1>Daejeon</h1>
+              <h1>Daejeon City</h1>
               <h2>Chamber of Commerce</h2>
             </div>
             <i id="facebook" class="fa-brands fa-facebook"></i>
@@ -26,18 +25,39 @@
               <li><a href="../index.html">Home</a></li>
               <li><a href="../pageDiscover/discover.html">Discover</a></li>
               <li><a href="../directory/directory.html">Directory</a></li>
-              <li><a href="./join.html">Join</a></li>
-              <li><a href="../contact/contact.html">Contact</a></li>
+              <li><a href="../join/join.html">Join</a></li>
+              <li><a href="./contact.html">Contact</a></li>
             </ul>
             <div class="currentDate"></div>
             <div id="banner"></div>
           </header>
-          <div id="thankYou">
-            <img id="thankyouImg" src="../images/logo.webp" alt="logo">
-            <h3>Thank you!!</h3>
-            <p>We appreciate that you have selected us, we hope to meet you soon!</p>
-        </div>
-        <footer>
+    
+          <div class="container">
+            <form id = "form" method="get" action="submit.html">
+                
+              <label for="fname">First Name</label>
+              <input type="text" id="fname" name="firstname" placeholder="Your name..">
+          
+              <label for="lname">Last Name</label>
+              <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+          
+              <label for="country">Country</label>
+              <select id="country" name="country">
+                <option value="australia">Australia</option>
+                <option value="canada">Canada</option>
+                <option value="usa">USA</option>
+                <option value="usa">Korea</option>
+                <option value="usa">Japan</option>
+              </select>
+          
+              <label for="subject">Subject</label>
+              <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+          
+              <input type="submit" value="Submit">
+            </form>
+          </div>
+
+          <footer>
             <div class="footer">
               <img src="../images/logo.webp" alt="logo" id="footImg" />
               <div id="location">
